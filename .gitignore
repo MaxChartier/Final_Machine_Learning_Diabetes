@@ -1,1 +1,6 @@
 mlartifacts/
+mlruns/
+File_data.csv
+random_forest_diabetes_model.pkl
+*.pkl
+*.csv
