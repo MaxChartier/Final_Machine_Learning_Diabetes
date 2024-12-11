@@ -170,7 +170,7 @@ rf_model = RandomForestClassifier(random_state=42)
 train_and_log_model(rf_model, "Random_Forest_Classifier", X_train, X_test, y_train, y_test)
 
 # export the  best model rf
-
+'''
 import pickle
 
 # Save the Random Forest model to a file
@@ -222,3 +222,4 @@ new_data_df[columns_to_normalize] = normalizer.fit_transform(new_data_df[columns
 # Predict using the loaded model
 prediction = loaded_model.predict(new_data_df)
 print("Prediction (0 = No Diabetes, 1 = Diabetes, 2 = Prediabetes):", prediction[0])
+'''
